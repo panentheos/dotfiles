@@ -1,0 +1,5 @@
+PROMPT="%B%m%b:%~ %# "
+alias gg="git grep"
+alias gst="git status"
+alias gpr="git pull --rebase"
+alias gpoh="git push origin HEAD"

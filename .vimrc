@@ -15,12 +15,12 @@ set report=0
 set shortmess=at
 set showmatch
 set showmode
-set textwidth=78
+set textwidth=0
 set wildchar=<TAB>
-set wildmode=list
+set wildmode=longest,list
 
 set autoindent
-set shiftwidth=2
+set shiftwidth=3
 set shiftround
 set smarttab
 set expandtab
@@ -31,6 +31,3 @@ set nohlsearch
 
 syntax on
 filetype on
-
-au FileType python set tw=0
-au FileType xhtml set tw=0
